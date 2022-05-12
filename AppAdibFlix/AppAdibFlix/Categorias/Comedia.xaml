@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAdibFlix.Categorias.View2">
+  <ContentView.Content>
+        <StackLayout Orientation="Vertical">
+
+            <Image x:Name="Logo" Style="{StaticResource LogoNaListaDePosters}"/>
+
+            <ScrollView>
+
+                <Grid Padding="5" ColumnDefinitions="*,*" RowDefinitions="*,*">
+
+
+
+
+                    <ImageButton x:Name="btnAmizades"
+                                 Grid.Row="0" Grid.Column="1"
+                                 Style="{StaticResource ButtonPosters}"
+                                 Clicked="btnAmizades_Clicked"/>
+
+
+
+
+
+
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>
